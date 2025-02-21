@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", system-ui;
+}
+
+.single-chart > iframe:nth-child(even),
+.tv-lightweight-charts:nth-child(even) {
+  display: none !important;
+}
